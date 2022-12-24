@@ -2,7 +2,7 @@
 
 int main()
 {
-    int year = 2020;
+    int year = 2022;
     if (year%400 == 0){
         printf("True");
     }
