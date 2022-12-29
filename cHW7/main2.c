@@ -20,7 +20,7 @@ break;
 }
 }
 printf("%d%.5f",x,pi);
-//272241 3.14159
+
 return 0;
 }
 
