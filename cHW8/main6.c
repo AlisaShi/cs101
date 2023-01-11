@@ -1,5 +1,5 @@
 #include <stdio.h>
-int i=4;
+int i=6;
 void tri(){
     for(int n=0;n<i;n++){
         for (int k=1;k<i-n;k++){
@@ -21,7 +21,7 @@ void stars(){
 void sqrs(){
     stars();
     printf("\n");
-    for (int k=1;k<i;k++){
+    for (int k=1;k<=i;k++){
         printf("*");
         for(int j=1;j<(i-1)*2;j++){
             printf(" ");
